@@ -64,6 +64,28 @@
           <h4 class="u-align-center u-text u-text-palette-2-base u-text-2"> Меня зовут Алексей Бешкарев</h4>
           <p class="u-align-center u-text u-text-3"> Я QA-engineer с опытом работы 3,5 года. Возможно, я буду тестировать ваш продукт. Если так, то вам полезно уже сейчас узнать, что я умею. Для этого прокрутите ниже:)</p>
           
+          <button class="open-button" onclick="openForm()">Связаться со мной</button>
+          <div class="form-popup" id="myForm">
+              <form action="../action_page.php" class="form-container">
+                  <h2>Форма обратной связи</h2>
+                  <label for="email"><b>Ваша почта</b></label>
+                  <input type="text" placeholder="mail@mail.ru" name="email" required>
+                  <div style=”margin-left:20px;”></div>
+                  <label for="number">Ваш телефон</label>
+                  <input type="tel" name="phone" placeholder="+7 000 000-00-00" id="number" maxlength="21" required>
+                  <div style=”margin-left:20px;”></div>
+                  <label for="number">Какова цель для связи?</label>
+                  <input type="komment" placeholder="Ваш текст" name="psw" required>
+                  <div style=”margin-left:20px;”></div>
+                  <button type="submit" class="btn">Отправить</button>
+                  <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+              </form>
+          </div>
+          <script>
+              function openForm() { document.getElementById("myForm").style.display = "block"; }
+              function closeForm() { document.getElementById("myForm").style.display = "none"; }
+          </script>
+
           </p>
         </div>
       </div>
@@ -164,7 +186,8 @@
         </div>
       </div>
       
-      
+
+
     </section>
     <section class="u-clearfix u-image u-valign-middle-md u-section-3" id="carousel_1b24" data-image-width="1980" data-image-height="1320">
       <div class="u-clearfix u-sheet"></div>
