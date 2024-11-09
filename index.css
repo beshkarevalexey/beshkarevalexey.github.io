@@ -14,6 +14,18 @@
   --animation-custom_in-scale: 0.3;
 }
 
+.form-popup {
+  text-align: center;
+  height: 200px;
+  margin-top: 0;
+  margin-bottom: 0;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+}
+
 .u-section-1 .u-group-1 {
   width: 782px;
   min-height: 445px;
