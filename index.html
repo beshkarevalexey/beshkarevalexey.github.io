@@ -70,10 +70,10 @@
               <form action="https:///t.me/napishitemne" class="form-container">
                   <h2>Форма обратной связи</h2>
                   <label for="email"><b>Ваша почта</b></label>
-                  <input type="text" placeholder="mail@mail.ru" name="email" required>
+                  <input type="email" placeholder="mail@mail.ru" name="email" required>
                   <div style=”margin-left:20px;”></div>
                   <label for="number">Ваш телефон</label>
-                  <input type="tel" name="phone" placeholder="+7 000 000-00-00" id="number" maxlength="21" required>
+                  <input type="tel" name="phone" pattern="[0-9]{11}" placeholder="70000000000" id="number" maxlength="21" required>
                   <div style=”margin-left:20px;”></div>
                   <label for="number">Комментарий</label>
                   <input type="komment" placeholder="Ваш текст" name="psw" required>
