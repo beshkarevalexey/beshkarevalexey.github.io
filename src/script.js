@@ -1,7 +1,7 @@
 const isFirefox = navigator.userAgent.toLowerCase().indexOf("firefox") > -1;
 
-const correctMail = "german@dolnikov.ru";
-const correctPass = "iLoveqastudio1";
+const correctMail = "aleksei@mail.ru";
+const correctPass = "iloveregress";
 
 const MESSAGE_TEXT = {
   // !!! взял на себя смелость исправить статус valid на succesful
